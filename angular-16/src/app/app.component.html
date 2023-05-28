@@ -1,0 +1,37 @@
+<h1 class="text-center">Angular 16 & ABP</h1>
+
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      aria-current="home"
+      [routerLink]="['']"
+      [routerLinkActive]="'active'"
+      [routerLinkActiveOptions]="{ exact: true }"
+    >
+      Home
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      aria-current="signal"
+      [routerLink]="['signal']"
+      [routerLinkActive]="'active'"
+    >
+      Signal
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      aria-current="take-until-destory"
+      [routerLink]="['until-destroy']"
+      [routerLinkActive]="'active'"
+    >
+      take-until-destory
+    </a>
+  </li>
+</ul>
+
+<router-outlet></router-outlet>

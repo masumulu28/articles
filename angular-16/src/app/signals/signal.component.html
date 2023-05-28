@@ -1,0 +1,26 @@
+<div class="card p-1">
+  <ul class="nav nav-pills mb-2">
+    <li class="nav-item">
+      <a
+        class="nav-link"
+        aria-current="home"
+        [routerLink]="['people']"
+        [routerLinkActive]="'active'"
+      >
+        People
+      </a>
+    </li>
+    <li class="nav-item">
+      <a
+        class="nav-link"
+        aria-current="home"
+        [routerLink]="['members']"
+        [routerLinkActive]="'active'"
+      >
+        Members
+      </a>
+    </li>
+  </ul>
+
+  <router-outlet></router-outlet>
+</div>

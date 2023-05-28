@@ -1,0 +1,13 @@
+.card {
+  &.card-header a {
+    text-decoration: none;
+  }
+
+  &.card-member:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+    transition: all 0.2s ease-in;
+    z-index: 999;
+  }
+}

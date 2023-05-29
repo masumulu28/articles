@@ -1,4 +1,4 @@
-# Angular version 16 🚀🚀
+# What's new in Angular 16? New Features and Updates
 
 Hi everyone, in this article we'll talk about the new features and improvments of Angular v16 that published at **May 3, 2023.** There are many good features and improvements in this version. Let's get started!
 

@@ -1,4 +1,4 @@
-# Cascading Option Loading with Extensions System In ABP Angular
+# Cascading Option Loading with Extensions System in ABP Angular
 
 In this article we'll see how to loading cascading options with extensions system in ABP Angular. For this example we'll simulate renting a book process. Beside our default form properties we'll contribute `Name` property to our `Rent Form Modal` in Books module. This property will be loaded after `Genre` selected.
 

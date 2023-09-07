@@ -206,7 +206,7 @@ Yes I'm still using class based guard 🙂 much flexible...
 
 **4.RentBookComponent**
 
-- Our tracable variable defined here `(form:FormGroup)`, which means We'll track this variable in `options` property at defaults || contributors files.
+- Our trackable variable defined here `(form:FormGroup)`, which means We'll track this variable in `options` property at defaults || contributors files.
 - Providing `AuthorService`, also `EXTENSIONS_IDENTIFIER` for the reach dynamic properties
 
 ```ts
@@ -447,4 +447,4 @@ Finally.. We've added new property to our module, and it'll be loaded after `Gen
 
 Thanks for reading, I hope it was helpful. If you have any questions, please let me know in the comments section. 👋👋
 
-> You can find the source code of this article on [Github]()
+> You can find the source code of this article on [Github](https://github.com/masumulu28/articles/tree/main/abp/cascading-option-loading-with-extensions/Volo.BookStore/angular/src/app)
